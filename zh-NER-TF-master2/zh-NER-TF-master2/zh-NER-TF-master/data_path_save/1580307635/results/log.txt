@@ -1,0 +1,39 @@
+2020-01-29 22:20:35,310:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2020-01-29 22:20:35,351:WARNING: From D:\python\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-01-29 22:20:35,351:WARNING: From D:\python\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-01-29 22:20:35,356:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:86: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-01-29 22:20:35,356:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:86: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2020-01-29 22:20:35,363:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:96: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-01-29 22:20:35,363:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:96: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2020-01-29 22:20:35,363:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:106: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-01-29 22:20:35,363:WARNING: From F:\python_exercise\zh-NER-TF-master2\zh-NER-TF-master\model.py:106: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2020-01-29 22:20:35,364:WARNING: From D:\python\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-01-29 22:20:35,364:WARNING: From D:\python\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2020-01-29 22:20:35,382:WARNING: From D:\python\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-01-29 22:20:35,382:WARNING: From D:\python\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-01-29 22:20:38,737:INFO: 2020-01-29 22:20:37 epoch 1, step 1, loss: 73.93, global_step: 1
+2020-01-29 22:20:38,737:INFO: 2020-01-29 22:20:37 epoch 1, step 1, loss: 73.93, global_step: 1
